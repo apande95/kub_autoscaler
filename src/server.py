@@ -12,7 +12,7 @@ app = Flask(__name__)
 # mysql = MySQL(app)
 
 
-@app.route("/stress", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def stress():
     """_summary_: stress the cpu. It will run a loop for 1 second."""
     random_number = random.randint(2, 100)
