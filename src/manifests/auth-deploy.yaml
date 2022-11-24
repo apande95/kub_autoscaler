@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: kub-autoscaler-demo
-        image: anip95/kub_scaling
+        image: anip95/kubscalerdemo:latest
         ports:
         - containerPort: 5002
         resources:

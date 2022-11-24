@@ -3,7 +3,6 @@ from flask import Flask
 import time
 import random
 # from flask_mysqldb import MySQL
-import os
 
 app = Flask(__name__)
 # app.config["MYSQL_USER"] = os.environ.get("MYSQL_USER")
