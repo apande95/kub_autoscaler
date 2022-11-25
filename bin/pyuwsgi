@@ -15,6 +15,7 @@ except ImportError:
         from pkg_resources import load_entry_point
 
 
+def importlib_load_entry_point(spec, group, name):
     dist_name, _, _ = spec.partition('==')
     matches = (
         entry_point
