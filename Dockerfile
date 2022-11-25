@@ -12,4 +12,8 @@ COPY /src /app
 
 EXPOSE 5002
 
-CMD ["python3", "server.py"]
+CMD [ "uwsgi", "--http", "0.0.0.0:5002", \
+               "--workers", "4", \
+               "--plugins", "python3", \
+               "--protocol", "uwsgi", \
+               "--wsgi-file","wsgi.py"]

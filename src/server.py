@@ -16,7 +16,7 @@ app = Flask(__name__)
 def stress():
     """_summary_: stress the cpu. It will run a loop for 1 second."""
     random_number = random.randint(2, 100)
-    loop_end_time = time.time() + .5
+    loop_end_time = time.time() + .2
     while time.time() < loop_end_time:
         random_number = random_number * random_number
     return "OK", 200
