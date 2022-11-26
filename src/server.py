@@ -24,7 +24,7 @@ def stress():
     return "OK", 200
 
 
-@app.route("/db", methods=["GET", "POST"])
+@app.route("/db/", methods=["GET", "POST"])
 def db():
     """Fill random data to the database."""
     random_int = random.randint(1, 100)
