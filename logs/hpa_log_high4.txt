@@ -1,0 +1,13 @@
+NAME                  REFERENCE                        TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   <unknown>/20%   1         10        0          13s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   0%/20%          1         10        1          15s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   15%/20%         1         10        1          60s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   164%/20%        1         10        1          2m
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   164%/20%        1         10        4          2m15s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   164%/20%        1         10        8          2m31s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   164%/20%        1         10        8          2m47s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   164%/20%        1         10        9          4m13s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   164%/20%        1         10        9          6m51s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   0%/20%          1         10        9          7m23s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   0%/20%          1         10        8          7m38s
+kub-autoscaler-demo   Deployment/kub-autoscaler-demo   0%/20%          1         10        8          7m53s
